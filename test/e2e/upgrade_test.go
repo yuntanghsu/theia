@@ -42,6 +42,7 @@ func skipIfNotUpgradeTest(t *testing.T) {
 //
 // To run the test, provide the -upgrade.toVersion flag.
 func TestUpgrade(t *testing.T) {
+	t.Skip()
 	skipIfNotUpgradeTest(t)
 	config := FlowVisibiltiySetUpConfig{
 		withSparkOperator:     false,

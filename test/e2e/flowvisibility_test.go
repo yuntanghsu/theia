@@ -139,6 +139,7 @@ type testFlow struct {
 }
 
 func TestFlowVisibility(t *testing.T) {
+	t.Skip()
 	config := FlowVisibiltiySetUpConfig{
 		withSparkOperator:     false,
 		withGrafana:           true,
